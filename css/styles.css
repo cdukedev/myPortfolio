@@ -1,0 +1,87 @@
+footer{
+    padding: 0  0 30vw 0;
+    text-align: center;
+    font-size: 12px;
+}
+.footerWrapper{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+    justify-content: space-between;
+}
+.footerTag{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: right; 
+    text-decoration: none;
+}
+.navWrapper{
+    display: flex;
+    justify-content: space-between;
+    min-height: 20vw;
+    max-width: 100%;
+    bottom: 0;
+    right: 1vw;
+    left: 1vw;
+    position: fixed;
+    list-style: none;
+}
+#navItem1{
+    display: flex;
+    min-width: 22vw;
+    border: 2px solid #00FFCA;
+    border-radius: 15%;
+    justify-content: center;
+    align-items: center;
+}
+#navItem2{
+    display: flex;
+    min-width: 22vw;
+    border: 2px solid #00FFCA;
+    border-radius: 15%;
+    justify-content: center;
+    align-items: center;
+}
+#navItem3{
+    display: flex;
+    min-width: 22vw;
+    border: 2px solid #00FFCA;
+    border-radius: 15%;
+    justify-content: center;
+    align-items: center;
+}
+#navItem4{
+    display: flex;
+    min-width: 22vw;
+    border: 2px solid #00FFCA;
+    border-radius: 15%;
+    justify-content: center;
+    align-items: center;
+}
+#navTextStyle1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5vw 1vw;
+}
+#navTextStyle2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5vw 1vw;
+}
+#navTextStyle3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5vw 1vw;
+}
+#navTextStyle4{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5vw 1vw;
+}
