@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Projects</title>
-</head>
-<style>
-    html {
-        position: relative;
-        background:linear-gradient(192.06deg, rgba(0, 255, 202, 0.33) 0%, rgba(48, 72, 120, 0) 100%);
-        opacity: 1 !important;
-        z-index: 1;
-    }
-        div::before {
+    <style>
+        body {
+            position: relative;
+            background: linear-gradient(192.06deg, rgba(0, 255, 202, 0.33) 0%, rgba(48, 72, 120, 0) 100%);
+            opacity: 1 !important;
+            z-index: 1;
+        }
+
+        html::before {
             content: "";
             position: fixed;
             top: 0;
@@ -25,148 +25,168 @@
             opacity: .5;
             z-index: -1;
         }
-    header img{
-        display: block;
-        margin: 0 auto;
-        opacity: 1 !important;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    }
-    main img{
-        width: 75vw;
-        display: block;
-        opacity: 1 !important;
-        margin-left: auto;
-        margin-right: auto;
+        header img {
+            display: block;
+            margin: 0 auto;
+            opacity: 1 !important;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    }
-    p{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 17px;
-        color:linear-gradient(180deg, #00A6BD 0%, #304878 100%);
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 5% 15%;
-    }
-    #navItem1{
-        background: #18C0C0;
-        opacity: 0.95;
-    }
-    #navItem2{
-        background: #842C84;
-        opacity: 0.95;
-    }
-    #navItem3{
-        background: #304878;
-        opacity: 0.95;
-    }
-    #navItem4{
-        background: #089c9c;
-        opacity: 0.95;
-    }
-    footer{
-        padding: 0  0 30vw 0;
-        text-align: left;
-        font-size: 12px;
-    }
-</style>
-<div>
-    <body>
-        <header>
-            <a href="./index.html">
-                <img src="./assets/projects/LOGO.png" alt="Corey Duke's Logo">
-            </a>
-        </header>
-        <main>
-            <p>
-                Ocean Beats was the first project I joined during the FIU ShellHacks. We used C+ and Unity to create an educational music game. This game mixes my passion as a musician and educator, and I learned to plan and develop a project and build in a short time frame. This was a special project that helped me to see the hard work necessary to learn and to develop a project from the ground up.
-            </p>
-            <a href="https://www.devpost.com/software/ocean-beats">
-                <img src="./assets/projects/oceanBeats.png" alt="Ocean Beats">
-            </a>
-            <p>
-                I had the great opportunity to work on my dream project with a great team during the week long Miami Hack Week. We used Javascript, HTML, and CSS.Created a Google Developer account and Firebase account, and incorporated google map apis and a full sign up and log in screen. 
-            </p>
-            <a href="https://devpost.com/software/gathering-aybe7l">
-                <img src="./assets/projects/gathering.png" alt="Gathering">
-            </a>
-            <p>
-                This was a fun project for a  3 day hackathon. We built an app that would create a community hub for members to join in public chess matches and maintain a leader board. 
-            </p>
-            <a href="https://www.devpost.com/software/inchess-0rx9ga">
-                <img src="./assets/projects/inChess.png" alt="InChess">
-            </a>
-        </main>
-        <footer>
-            <hr>
-            <ul class="footerWrapper">
-                <li>
-                    <a href="./portfolio.html">
-                        <img src="./assets/resourcesUsed.png" alt="Link to page describing where I learned about building a portfolio">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/cdukedev" target="_blank">
-                        <img src="./assets/github.png" alt="Link to my github profile">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/corey-duke-full-stack-dev" target="_blank" >
-                        <img src="./assets/linkedin.png" alt="Link to my linkedin profile">
-                    </a>
-                </li>
-                <li>
-                    <a href="./wireframe.html">
-                        <img src="./assets/figmaDesigns.png" alt="Link to page displaying the wireframes and designs created to build this site">
-                    </a>
-                </li>
-                <li>
-                    <!-- Add link to email -->
-                    <a href="mailto:cdukedev@gmail.com" target="_blank">
-                        <img src="./assets/mail.png" alt="Link to my email">
-                    </a>
-                </li>
-                <li>
-                    <!-- Add link to phone -->
-                    <a href="tel:+1-954-793-0615">
-                        <img src="./assets/phone.png" alt="Link to my phone">
-                </li>
-            </ul>
-            <span class="footerTag">&copy; Cdukedev 2022</span>
-            <hr>
-        </footer>
-            <nav class="navWrapper">
-                <li id="navItem1">
-                    <a href="./index.html">
-                        <span id="navTextStyle1">
-                            Home
-                        </span>
-                    </a>
-                </li>
-                <li id="navItem2">
-                    <a href="./about.html">
-                        <span id="navTextStyle2">
-                            About <br>Me
-                        </span>
-                    </a>
-                </li>
-                <li id="navItem3">
-                    <a href="./gathering.html">
-                        <span id="navTextStyle3">
-                            Gathering <br>Miami
-                        </span>
-                    </a>
-                </li>
-                <li id="navItem4">
-                    <a href="./contact.html">
-                        <span id="navTextStyle4">
-                            Contact Me
-                        </span>
-                    </a>
-                </li>
-            </nav>
-    </body>
-</div>
+        }
+
+        main img {
+            width: 75vw;
+            display: block;
+            opacity: 1 !important;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 17px;
+            color: #304878;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 5% 15%;
+        }
+
+        #navItem1 {
+            background: #18C0C0;
+            opacity: 0.95;
+        }
+
+        #navItem2 {
+            background: #842C84;
+            opacity: 0.95;
+        }
+
+        #navItem3 {
+            background: #304878;
+            opacity: 0.95;
+        }
+
+        #navItem4 {
+            background: #089c9c;
+            opacity: 0.95;
+        }
+
+        footer {
+            padding: 0 0 30vw 0;
+            text-align: left;
+            font-size: 12px;
+        }
+    </style>
+    <title>Projects</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./assets/projects/LOGO.png" alt="Corey Duke's Logo">
+        </a>
+    </header>
+    <main>
+        <p>
+            Ocean Beats was the first project I joined during the FIU ShellHacks. We used C+ and Unity to create an
+            educational music game. This game mixes my passion as a musician and educator, and I learned to plan and
+            develop a project and build in a short time frame. This was a special project that helped me to see the hard
+            work necessary to learn and to develop a project from the ground up.
+        </p>
+        <a href="https://www.devpost.com/software/ocean-beats" target="_blank">
+            <img src="./assets/projects/oceanBeats.png" alt="Ocean Beats">
+        </a>
+        <p>
+            I had the great opportunity to work on my dream project with a great team during the week long Miami Hack
+            Week. We used Javascript, HTML, and CSS.Created a Google Developer account and Firebase account, and
+            incorporated google map apis and a full sign up and log in screen.
+        </p>
+        <a href="https://devpost.com/software/gathering-aybe7l">
+            <img src="./assets/projects/gathering.png" alt="Gathering">
+        </a>
+        <p>
+            This was a fun project for a 3 day hackathon. We built an app that would create a community hub for members
+            to join in public chess matches and maintain a leader board.
+        </p>
+        <a href="https://www.devpost.com/software/inchess-0rx9ga">
+            <img src="./assets/projects/inChess.png" alt="InChess">
+        </a>
+    </main>
+    <footer>
+        <hr>
+        <ul class="footerWrapper">
+            <li>
+                <a href="./portfolio.html">
+                    <img src="./assets/resourcesUsed.png"
+                        alt="Link to page describing where I learned about building a portfolio">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/cdukedev" target="_blank">
+                    <img src="./assets/github.png" alt="Link to my github profile">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/corey-duke-full-stack-dev" target="_blank">
+                    <img src="./assets/linkedin.png" alt="Link to my linkedin profile">
+                </a>
+            </li>
+            <li>
+                <a href="./wireframe.html">
+                    <img src="./assets/figmaDesigns.png"
+                        alt="Link to page displaying the wireframes and designs created to build this site">
+                </a>
+            </li>
+            <li>
+                <!-- Add link to email -->
+                <a href="mailto:cdukedev@gmail.com" target="_blank">
+                    <img src="./assets/mail.png" alt="Link to my email">
+                </a>
+            </li>
+            <li>
+                <!-- Add link to phone -->
+                <a href="tel:+1-954-793-0615">
+                    <img src="./assets/phone.png" alt="Link to my phone">
+                </a>
+            </li>
+        </ul>
+        <span class="footerTag">&copy; Cdukedev 2022</span>
+        <hr>
+    </footer>
+    <nav>
+        <ul class="navWrapper">
+            <li id="navItem1">
+                <a href="./index.html">
+                    <span id="navTextStyle1">
+                        Home
+                    </span>
+                </a>
+            </li>
+            <li id="navItem2">
+                <a href="./about.html">
+                    <span id="navTextStyle2">
+                        About <br>Me
+                    </span>
+                </a>
+            </li>
+            <li id="navItem3">
+                <a href="./gathering.html">
+                    <span id="navTextStyle3">
+                        Gathering <br>Miami
+                    </span>
+                </a>
+            </li>
+            <li id="navItem4">
+                <a href="./contact.html">
+                    <span id="navTextStyle4">
+                        Contact Me
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
 </html>

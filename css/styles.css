@@ -24,8 +24,7 @@ footer{
     min-height: 20vw;
     max-width: 100%;
     bottom: 0;
-    right: 1vw;
-    left: 1vw;
+    left: -5vw;
     position: fixed;
     list-style: none;
 }

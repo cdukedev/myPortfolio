@@ -1,155 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Portfolio Learning</title>
-</head>
-<style>
-    html {
-        position: relative;
-        background:linear-gradient(167.94deg, #00246c 0%, #bd3ebd 100%);
-        opacity: 1 !important;
-        z-index: 1;
-    }
-        div::before {
+    <style>
+        /*Styling for page specific changes*/
+        body{
+            position: relative;
+            background: linear-gradient(167.94deg, #00246c 0%, #bd3ebd 100%);
+            opacity: 1 !important;
+            z-index: 1;
+        }
+
+        html::before {
             content: "";
             position: fixed;
             top: 0;
             right: 0;
             bottom: 0;
             left: 0;
-            background: url('./assets/vector.png');
+            background: url('../cts1855c-project-cdukedev/assets/vector.png');
             opacity: .5;
             z-index: -1;
         }
-    header img{
-        display: block;
-        margin: 0 auto;
-        opacity: 1 !important;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    }
-    main img{
-        width: 75vw;
-        display: block;
-        opacity: 1 !important;
-        margin-left: auto;
-        margin-right: auto;
+        header img {
+            display: block;
+            margin: 0 auto;
+            opacity: 1 !important;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    }
-    p{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 17px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 5% 15%;
-    }
-    #navItem1{
-        background: #18C0C0;
-        opacity: 0.95;
-    }
-    #navItem2{
-        background: #842C84;
-        opacity: 0.95;
-    }
-    #navItem3{
-        background: #304878;
-        opacity: 0.95;
-    }
-    #navItem4{
-        background: #089c9c;
-        opacity: 0.95;
-    }
-    footer{
-        padding: 0  0 30vw 0;
-        text-align: left;
-        font-size: 12px;
-    }
-</style>
-<div>
-    <body>
-        <header>
-            <a href="./index.html">
-                <img src="./assets/index/LOGO.png" alt="Corey Duke's Logo">
-            </a>
-        </header>
-        <main>
-            
-        </main>
-        <footer>
-            <hr>
-            <ul class="footerWrapper">
-                <li>
-                    <a href="./portfolio.html">
-                        <img src="./assets/resourcesUsed.png" alt="Link to page describing where I learned about building a portfolio">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/cdukedev">
-                        <img src="./assets/github.png" alt="Link to my github profile">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/corey-duke-full-stack-dev">
-                        <img src="./assets/linkedin.png" alt="Link to my linkedin profile">
-                    </a>
-                </li>
-                <li>
-                    <a href="./wireframe.html">
-                        <img src="./assets/figmaDesigns.png" alt="Link to page displaying the wireframes and designs created to build this site">
-                    </a>
-                </li>
-                <li>
-                    <!-- Add link to email -->
-                    <a href="mailto:cdukedev@gmail.com">
-                        <img src="./assets/mail.png" alt="Link to my email">
-                    </a>
-                </li>
-                <li>
-                    <!-- Add link to phone -->
-                    <a href="tel:+1-954-793-0615">
-                        <img src="./assets/phone.png" alt="Link to my phone">
-                </li>
-            </ul>
-            <span class="footerTag">&copy; Cdukedev 2022</span>
-            <hr>
-        </footer>
-            <nav class="navWrapper">
-                <li id="navItem1">
-                    <a href="./projects.html">
-                        <span id="navTextStyle1">
-                            Projects
-                        </span>
-                    </a>
-                </li>
-                <li id="navItem2">
-                    <a href="./about.html">
-                        <span id="navTextStyle2">
-                            About <br>Me
-                        </span>
-                    </a>
-                </li>
-                <li id="navItem3">
-                    <a href="./gathering.html">
-                        <span id="navTextStyle3">
-                            Gathering <br>Miami
-                        </span>
-                    </a>
-                </li>
-                <li id="navItem4">
-                    <a href="./contact.html">
-                        <span id="navTextStyle4">
-                            Contact Me
-                        </span>
-                    </a>
-                </li>
-            </nav>
-    </body>
-</div>
+        }
+
+        main img {
+            width: 75vw;
+            display: block;
+            opacity: 1 !important;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 17px;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        }
+
+        #navItem1 {
+            background: #18C0C0;
+            opacity: 0.95;
+        }
+
+        #navItem2 {
+            background: #842C84;
+            opacity: 0.95;
+        }
+
+        #navItem3 {
+            background: #304878;
+            opacity: 0.95;
+        }
+
+        #navItem4 {
+            background: #089c9c;
+            opacity: 0.95;
+        }
+
+        footer {
+            padding: 0 0 30vw 0;
+            text-align: left;
+            font-size: 12px;
+        }
+    </style>
+    <title>Portfolio Learning</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./assets/index/LOGO.png" alt="Corey Duke's Logo">
+        </a>
+    </header>
+    <main>
+        <h1>Importance of a Portfolio and necessary aspects to help to find Job placement.</h1>
+        <p>
+            The first step to make my portfolio to start to stand out will be to really clean up the code, pages and
+            overall design including the responsiveness with media queries and testing on all browsers and devices that
+            I have access to. Next I will be adding Javascript and Animations for smooth transitions and overall flow.
+            For the projects section I would like the add react objects to show proficiency during the BootCamp I am
+            attending over the summer. I will also add to the projects section and with more industry related projects
+            that show more knowledge of api's, working with databases, using React, and the MERN stack to build more
+            completed and functional web applications. I will also like to keep a blog section that I can link to while
+            I am doing the 100 days of coding challenge on twitter this summer.
+        </p>
+        <p>
+            Another area I would like to keep in my portfolio is a section for the civic projects that I plan to begin
+            contributing to. As well as my experience while volunteering with the Microsoft Teal program if I am
+            accepted into a school during the 2022-2023 school year. I will also be applying to lead a web development
+            team at UPE in FIU in the fall, and would like to add this the the projects section.
+        </p>
+
+        <h2>Self Reflection on Portfolio Project</h2>
+        <p>With this project I was able to dig in alot more with building out a figma project and creating a more
+            detailed design rather than using it only for individual elements. It was interesting to take a page with
+            built in components in Figma and transfer them over to HTML and CSS. My goal was to emulate a similar
+            scenario to what a web developer would typically be presented with by having the full design laid out before
+            beginning to work on the HTML. Another main focus of mine was to really to focus more on the accessability
+            aspect of the app. It is important to me that anyone could use it and find value.
+        </p>
+        <p>When going through the testing I found one interesting scenario that I had not yet considered. I deployed my
+            portfolio on github in a seperate repo with out the readMe file or any other affiliation with this course.
+            When I opened the application on my wife's phone. The pages were all translated to french. Which
+            significantly impacted the design since some of the words were much larger than the english translation and
+            did not fit within the original container. So in the future I would like to test out specifically
+            spanish,french and the other top Languages that are common to the majority of users.</p>
+
+    </main>
+    <footer>
+        <hr>
+        <ul class="footerWrapper">
+            <li>
+                <a href="./portfolio.html">
+                    <img src="./assets/resourcesUsed.png"
+                        alt="Link to page describing where I learned about building a portfolio">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/cdukedev">
+                    <img src="./assets/github.png" alt="Link to my github profile">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/corey-duke-full-stack-dev">
+                    <img src="./assets/linkedin.png" alt="Link to my linkedin profile">
+                </a>
+            </li>
+            <li>
+                <a href="./wireframe.html">
+                    <img src="./assets/figmaDesigns.png"
+                        alt="Link to page displaying the wireframes and designs created to build this site">
+                </a>
+            </li>
+            <li>
+                <!-- Add link to email -->
+                <a href="mailto:cdukedev@gmail.com">
+                    <img src="./assets/mail.png" alt="Link to my email">
+                </a>
+            </li>
+            <li>
+                <!-- Add link to phone -->
+                <a href="tel:+1-954-793-0615">
+                    <img src="./assets/phone.png" alt="Link to my phone">
+                </a>
+            </li>
+        </ul>
+        <span class="footerTag">&copy; Cdukedev 2022</span>
+        <hr>
+    </footer>
+    <nav >
+        <ul class="navWrapper">
+            <li id="navItem1">
+                <a href="./projects.html">
+                    <span id="navTextStyle1">
+                        Projects
+                    </span>
+                </a>
+            </li>
+            <li id="navItem2">
+                <a href="./about.html">
+                    <span id="navTextStyle2">
+                        About <br>Me
+                    </span>
+                </a>
+            </li>
+            <li id="navItem3">
+                <a href="./gathering.html">
+                    <span id="navTextStyle3">
+                        Gathering <br>Miami
+                    </span>
+                </a>
+            </li>
+            <li id="navItem4">
+                <a href="./contact.html">
+                    <span id="navTextStyle4">
+                        Contact Me
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
 </html>
